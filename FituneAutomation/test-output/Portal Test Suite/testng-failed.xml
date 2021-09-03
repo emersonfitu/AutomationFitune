@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Portal Test Suite]">
+  <listeners>
+    <listener class-name="Demo.Automation.Utilities.ExtentReporterNG"/>
+  </listeners>
+  <test name="Regression_Test(failed)">
+    <classes>
+      <class name="Demo.Automation.Tests.Tests">
+        <methods>
+          <include name="Successful_login"/>
+          <include name="Bad_credentials_login"/>
+          <include name="Empty_credentials_login"/>
+          <include name="Unsuccessful_Resetpassword"/>
+          <include name="Successful_Resetpassword"/>
+          <include name="setup"/>
+          <include name="Empty_password_login"/>
+          <include name="Empty_email_login"/>
+        </methods>
+      </class> <!-- Demo.Automation.Tests.Tests -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [Portal Test Suite] -->

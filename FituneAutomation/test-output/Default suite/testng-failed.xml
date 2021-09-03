@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="Demo.Automation.Tests.Tests">
+        <methods>
+          <include name="Successful_login"/>
+          <include name="Bad_credentials_login"/>
+          <include name="Empty_credentials_login"/>
+          <include name="Unsuccessful_Resetpassword"/>
+          <include name="Successful_Resetpassword"/>
+          <include name="setup"/>
+          <include name="Empty_password_login"/>
+          <include name="Empty_email_login"/>
+        </methods>
+      </class> <!-- Demo.Automation.Tests.Tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

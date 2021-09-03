@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="3" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-06T22:42:32Z" name="Portal Test Suite" finished-at="2021-04-06T22:43:57Z" duration-ms="84349">
+    <groups>
+    </groups>
+    <test started-at="2021-04-06T22:42:32Z" name="Regression_Test" finished-at="2021-04-06T22:43:57Z" duration-ms="84349">
+      <class name="Jasper.Automation.Tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:32Z" name="setup" finished-at="2021-04-06T16:42:38Z" duration-ms="5424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Check_provisional_text_for_Privacy()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:38Z" name="Check_provisional_text_for_Privacy" finished-at="2021-04-06T16:42:39Z" duration-ms="1420" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Jasper.Automation.Tests.Tests.Check_provisional_text_for_Privacy(Tests.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_provisional_text_for_Privacy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:39Z" name="tearDown" finished-at="2021-04-06T16:42:45Z" duration-ms="5770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:45Z" name="setup" finished-at="2021-04-06T16:42:49Z" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Check_provisional_text_for_Terms_and_condition()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:49Z" name="Check_provisional_text_for_Terms_and_condition" finished-at="2021-04-06T16:42:50Z" duration-ms="1440" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Jasper.Automation.Tests.Tests.Check_provisional_text_for_Terms_and_condition(Tests.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_provisional_text_for_Terms_and_condition -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:50Z" name="tearDown" finished-at="2021-04-06T16:42:56Z" duration-ms="5740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:42:56Z" name="setup" finished-at="2021-04-06T16:43:00Z" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Factorial_for_limit_value_171_is_Not_infinity()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:00Z" name="Factorial_for_limit_value_171_is_Not_infinity" finished-at="2021-04-06T16:43:05Z" duration-ms="4343" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Jasper.Automation.Tests.Tests.Factorial_for_limit_value_171_is_Not_infinity(Tests.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Factorial_for_limit_value_171_is_Not_infinity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:05Z" name="tearDown" finished-at="2021-04-06T16:43:11Z" duration-ms="5747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:11Z" name="setup" finished-at="2021-04-06T16:43:15Z" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Get_factorial_for_limit_value_170()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:15Z" name="Get_factorial_for_limit_value_170" finished-at="2021-04-06T16:43:19Z" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_factorial_for_limit_value_170 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:19Z" name="tearDown" finished-at="2021-04-06T16:43:25Z" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:25Z" name="setup" finished-at="2021-04-06T16:43:30Z" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Get_factorial_for_limit_value_zero()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:30Z" name="Get_factorial_for_limit_value_zero" finished-at="2021-04-06T16:43:35Z" duration-ms="4364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_factorial_for_limit_value_zero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:35Z" name="tearDown" finished-at="2021-04-06T16:43:40Z" duration-ms="5743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:40Z" name="setup" finished-at="2021-04-06T16:43:46Z" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Happy_path_Get_factorial_valid_num()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:46Z" name="Happy_path_Get_factorial_valid_num" finished-at="2021-04-06T16:43:51Z" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Happy_path_Get_factorial_valid_num -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jasper.Automation.Tests.Tests@5e0826e7]" started-at="2021-04-06T16:43:51Z" name="tearDown" finished-at="2021-04-06T16:43:57Z" duration-ms="6040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Jasper.Automation.Tests.Tests -->
+    </test> <!-- Regression_Test -->
+  </suite> <!-- Portal Test Suite -->
+</testng-results>

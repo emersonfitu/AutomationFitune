@@ -1,0 +1,6 @@
+Jasper\Automation\Tests\Tests.class
+Jasper\Automation\Utilities\ExtentReporterNG.class
+Jasper\Automation\Pages\HomePage.class
+Jasper\Automation\Utilities\BrowserFactory.class
+Jasper\Automation\Utilities\PropertiesFile.class
+Jasper\Automation\Pages\BasePage.class

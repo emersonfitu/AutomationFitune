@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Portal Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Jasper.Automation.Utilities.ExtentReporterNG"/>
+  </listeners>
+  <test name="Regression_Test(failed)">
+    <classes>
+      <class name="Jasper.Automation.Tests.Tests">
+        <methods>
+          <include name="Check_provisional_text_for_Privacy"/>
+          <include name="setup"/>
+          <include name="Check_provisional_text_for_Terms_and_condition"/>
+          <include name="Factorial_for_limit_value_171_is_Not_infinity"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Jasper.Automation.Tests.Tests -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [Portal Test Suite] -->

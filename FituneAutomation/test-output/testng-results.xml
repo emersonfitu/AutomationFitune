@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T16:34:11Z" name="Portal Test Suite" finished-at="2021-09-03T16:34:13Z" duration-ms="1682">
+    <groups>
+    </groups>
+    <test started-at="2021-09-03T16:34:11Z" name="Regression_Test" finished-at="2021-09-03T16:34:13Z" duration-ms="1682">
+      <class name="Demo.Automation.Tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:11Z" name="setup" finished-at="2021-09-03T10:34:11Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DA9MCF7', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F63733+2504499]
+	Ordinal0 [0x00EFC401+2081793]
+	Ordinal0 [0x00E02628+1058344]
+	Ordinal0 [0x00E2071A+1181466]
+	Ordinal0 [0x00E1C58C+1164684]
+	Ordinal0 [0x00E19DC3+1154499]
+	Ordinal0 [0x00E49B82+1350530]
+	Ordinal0 [0x00E497DA+1349594]
+	Ordinal0 [0x00E45D4B+1334603]
+	Ordinal0 [0x00E222B4+1188532]
+	Ordinal0 [0x00E23149+1192265]
+	GetHandleVerifier [0x010DFB8C+1512252]
+	GetHandleVerifier [0x0118B0DF+2214031]
+	GetHandleVerifier [0x00FE4BC3+484211]
+	GetHandleVerifier [0x00FE3E69+480793]
+	Ordinal0 [0x00F0218D+2105741]
+	Ordinal0 [0x00F066E8+2123496]
+	Ordinal0 [0x00F06827+2123815]
+	Ordinal0 [0x00F0FB73+2161523]
+	BaseThreadInitThunk [0x76F8FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77567A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77567A4E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DA9MCF7', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F63733+2504499]
+	Ordinal0 [0x00EFC401+2081793]
+	Ordinal0 [0x00E02628+1058344]
+	Ordinal0 [0x00E2071A+1181466]
+	Ordinal0 [0x00E1C58C+1164684]
+	Ordinal0 [0x00E19DC3+1154499]
+	Ordinal0 [0x00E49B82+1350530]
+	Ordinal0 [0x00E497DA+1349594]
+	Ordinal0 [0x00E45D4B+1334603]
+	Ordinal0 [0x00E222B4+1188532]
+	Ordinal0 [0x00E23149+1192265]
+	GetHandleVerifier [0x010DFB8C+1512252]
+	GetHandleVerifier [0x0118B0DF+2214031]
+	GetHandleVerifier [0x00FE4BC3+484211]
+	GetHandleVerifier [0x00FE3E69+480793]
+	Ordinal0 [0x00F0218D+2105741]
+	Ordinal0 [0x00F066E8+2123496]
+	Ordinal0 [0x00F06827+2123815]
+	Ordinal0 [0x00F0FB73+2161523]
+	BaseThreadInitThunk [0x76F8FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77567A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77567A4E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at Demo.Automation.Utilities.BrowserFactory.StartApp(BrowserFactory.java:48)
+	at Demo.Automation.Pages.BasePage.setup(BasePage.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Bad_credentials_login()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Bad_credentials_login" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bad_credentials_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Empty_credentials_login()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Empty_credentials_login" finished-at="2021-09-03T10:34:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empty_credentials_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Empty_email_login()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Empty_email_login" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empty_email_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Empty_password_login()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Empty_password_login" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empty_password_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Successful_Resetpassword()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Successful_Resetpassword" finished-at="2021-09-03T10:34:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successful_Resetpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Successful_login()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Successful_login" finished-at="2021-09-03T10:34:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successful_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="setup" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Unsuccessful_Resetpassword()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="Unsuccessful_Resetpassword" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsuccessful_Resetpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.Automation.Tests.Tests@17a7f733]" started-at="2021-09-03T10:34:13Z" name="tearDown" finished-at="2021-09-03T10:34:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo.Automation.Tests.Tests -->
+    </test> <!-- Regression_Test -->
+  </suite> <!-- Portal Test Suite -->
+</testng-results>

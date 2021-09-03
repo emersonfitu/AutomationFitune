@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 85.334 sec <<< FAILURE! - in TestSuite
+Check_provisional_text_for_Privacy(Jasper.Automation.Tests.Tests)  Time elapsed: 1.426 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Jasper.Automation.Tests.Tests.Check_provisional_text_for_Privacy(Tests.java:109)
+
+Check_provisional_text_for_Terms_and_condition(Jasper.Automation.Tests.Tests)  Time elapsed: 1.44 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Jasper.Automation.Tests.Tests.Check_provisional_text_for_Terms_and_condition(Tests.java:97)
+
+Factorial_for_limit_value_171_is_Not_infinity(Jasper.Automation.Tests.Tests)  Time elapsed: 4.343 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Jasper.Automation.Tests.Tests.Factorial_for_limit_value_171_is_Not_infinity(Tests.java:84)
+
