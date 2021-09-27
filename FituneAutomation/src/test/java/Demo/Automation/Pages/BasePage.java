@@ -109,6 +109,11 @@ public class BasePage {
 		}
 	}
 	
+	public String gettext(WebDriver dri, String x) {
+		 String thiswebelement= dri.findElement(By.xpath(x)).getText();
+		 return thiswebelement;
+			
+	}
 	
 	
 	

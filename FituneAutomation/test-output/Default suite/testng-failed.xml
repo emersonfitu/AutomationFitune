@@ -5,14 +5,9 @@
     <classes>
       <class name="Demo.Automation.Tests.Tests">
         <methods>
-          <include name="Successful_login"/>
-          <include name="Bad_credentials_login"/>
-          <include name="Empty_credentials_login"/>
-          <include name="Unsuccessful_Resetpassword"/>
-          <include name="Successful_Resetpassword"/>
           <include name="setup"/>
-          <include name="Empty_password_login"/>
-          <include name="Empty_email_login"/>
+          <include name="tearDown"/>
+          <include name="Validate_action_dropdown_create_location"/>
         </methods>
       </class> <!-- Demo.Automation.Tests.Tests -->
     </classes>

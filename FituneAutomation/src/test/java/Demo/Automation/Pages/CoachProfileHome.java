@@ -1,5 +1,6 @@
 package Demo.Automation.Pages;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -39,6 +40,13 @@ public class CoachProfileHome extends BasePage {
 	@FindBy(xpath="//*[contains(text(), 'Your Storefront')]")
 	public WebElement yourstorefronttxt;
 	
+	public String VIEWLIVE_STOREFRONT = "/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[1]/div";
+	public String EDIT_STOREFRONT ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[2]/div";
+	public String CREATE_NEW_ACTIVITY ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[3]/div";
+	public String CREATE_NEW_LOCATION ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[4]/div";
+	public String CREATE_NEW_PRICING ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[5]/div";
+	public String CREATE_NEW_SCHEDULE ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[6]/div";
+	public String UPLOAD_VOD ="/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[7]/div";
 		
 	
 	public void AssertPage() {
@@ -66,7 +74,11 @@ public void Actions(actionsopt opt) {
 	  case VIEWLIVE_STOREFRONT:
 		
 		 driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div[3]/div/div/div[3]/div/div/div[1]/div[1]/div/div/div/div[1]/div")).click();
-	
+		 ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+		    driver.switchTo().window(tabs2.get(1));
+		  //  driver.close();
+		  //  driver.switchTo().window(tabs2.get(0));
+		    
 	    break;
 	  case EDIT_STOREFRONT:
 		 
@@ -116,7 +128,18 @@ public enum actionsopt {
 	
 
 
-	
+	public void ValidateActions() {
+		Assert.assertEquals(gettext(driver, VIEWLIVE_STOREFRONT), "View live storefront");
+		Assert.assertEquals(gettext(driver, EDIT_STOREFRONT), "Edit storefront");
+		Assert.assertEquals(gettext(driver, CREATE_NEW_ACTIVITY), "Create new activity");
+		Assert.assertEquals(gettext(driver, CREATE_NEW_LOCATION), "Create new location");
+		Assert.assertEquals(gettext(driver, CREATE_NEW_PRICING), "Create new pricing");
+		Assert.assertEquals(gettext(driver, CREATE_NEW_SCHEDULE), "Create schedule");
+		Assert.assertEquals(gettext(driver, UPLOAD_VOD), "Upload video content");
+		
+		//Assert.assertEquals(driver.findElement(By.xpath(VIEWLIVE_STOREFRONT)).getText(), "View live storefront"); 
+			
+	}
 	
 	
 	
